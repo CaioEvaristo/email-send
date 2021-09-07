@@ -1,0 +1,28 @@
+{
+  "name": "email-send",
+  "version": "1.0.0",
+  "description": "email-send",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioEvaristo/email-send.git"
+  },
+  "author": "Caio Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioEvaristo/email-send/issues"
+  },
+  "homepage": "https://github.com/CaioEvaristo/email-send#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
